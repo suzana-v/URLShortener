@@ -6,9 +6,15 @@
 </head>
 <body>
 
-Tu sam!
+<p>Aplikacija se pokreće preko komandne konzole, naredbom: java -jar url-shortener.jar</p>
+<p>Dostupni URL-ovi:</p>
+<p>- localhost:8080/account (REST api, POST metoda, ulazni parametar: accountId)</p>
+<p>- localhost:8080/register (REST api, POST metoda, ulazni parametri: url, redirectType)</p>
+<p>- localhost:8080/statistic/{accountId} (REST api, GET metoda, path parametar: accountId)</p>
+<p>- http://localhost:8080/showStatistics (web stranica za prikaz statistike)</p>
+<p>- http://localhost:8080/short/{urlCode} (short url generiran metodom register)</p>
+<p><br />REST metode se mogu testirati preko postmana.<br />Priložena je postman kolekcija za testiranje: URL Shortener.postman_collection.json</p>
 
-TODO - napisati upute za instalaciju
 
 </body>
 </html>
